@@ -1,0 +1,44 @@
+.ware-container {
+  background-color: #fff;
+}
+
+.ware-inner-container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #f2f2f2;
+  margin: 5px;
+}
+
+.ware-text-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.ware-img {
+  width: 350rpx;
+  height: 350rpx;
+}
+
+.ware-title {
+  font-size: 24rpx;
+}
+
+.logo-title {
+  font-size:22rpx;
+}
+
+.money {
+  font-size: 24rpx;
+  color: red;
+}
+
+.evaluate {
+  float: left;
+  font-size: 20rpx;
+}
+
+.expressage-tab {
+  float: right;
+  font-size: 20rpx;
+}

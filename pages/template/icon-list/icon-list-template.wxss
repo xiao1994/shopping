@@ -1,0 +1,9 @@
+@import "../icon/icon-template.wxss";
+.icons-list-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.icons-container {
+  flex: 1;
+}

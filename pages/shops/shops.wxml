@@ -1,0 +1,47 @@
+<import src="../template/sousuo/sousuo-template.wxml" />
+<import src="../template/icon-list/icon-list-template.wxml" />
+<import src="../template/ware-list/ware-list-template.wxml" />
+<scroll-view class="huise">
+  <view class="white">
+    <swiper autoplay="true" interval="5000" duration="1000">
+      <block wx:for="{{swiper_img_key}}">
+        <swiper-item>
+          <image bindtap="waresTap" src="{{item}}" mode="scaleToFill" />
+        </swiper-item>
+      </block>
+    </swiper>
+
+    <template is="sousuoTemplate" />
+
+    <view class="shops-icons">
+      <view class="shops-icons-template">
+        <template is="iconListTemplate" />
+      </view>
+      <view class="shops-icons-template">
+        <template is="iconListTemplate" />
+      </view>
+    </view>
+  </view>
+
+  <view class="logos">
+    <view class="logos-more" wx:for="{{logos_more_key}}">
+      <text class="logos-more-title">{{item.title}}</text>
+      <image class="logos-more-img" src="{{item.img}}" />
+    </view>
+
+    <scroll-view class="logos-scroll-container" scroll-x="true">
+      <view class="logos-container" wx:for="{{logos_list_key}}">
+        <image class="logos-img" src="{{item.img}}" />
+      </view>
+    </scroll-view>
+  </view>
+
+  <view class="ware-container">
+    <view class="wares-template">
+      <template is="wareListTemplate"/>
+      <template is="wareListTemplate"/>
+      <template is="wareListTemplate"/>
+    </view>
+  </view>
+
+</scroll-view>

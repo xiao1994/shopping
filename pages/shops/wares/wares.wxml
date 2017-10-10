@@ -1,0 +1,10 @@
+<import src="../../template/ware-list/ware-list-template.wxml" />
+<scroll-view>
+<view class="ware-container">
+  <view class="wares-template">
+    <template is="wareListTemplate" />
+    <template is="wareListTemplate" />
+    <template is="wareListTemplate" />
+  </view>
+</view>
+</scroll-view>

@@ -1,0 +1,20 @@
+<template name="iconTemplate">
+  <view class="icon-container">
+    <view bindtap="waresTap" class="icon-column">
+      <image class="icon-img" src="/images/icon/cake1.png" />
+      <text class="icon-title">郴州银都</text>
+    </view>
+    <view bindtap="waresTap" class="icon-column">
+      <image class="icon-img" src="/images/icon/cake2.png" />
+      <text class="icon-title">郴州银都</text>
+    </view>
+    <view bindtap="waresTap" class="icon-column">
+      <image class="icon-img" src="/images/icon/cake3.png" />
+      <text class="icon-title">郴州银都</text>
+    </view>
+    <view bindtap="waresTap" class="icon-column">
+      <image class="icon-img" src="/images/icon/cake4.png" />
+      <text class="icon-title">郴州银都</text>
+    </view>
+  </view>
+</template>

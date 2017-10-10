@@ -1,0 +1,44 @@
+{
+  "pages": [    
+    "pages/shops/shops",
+    "pages/index/index",
+    "pages/me/me",
+    "pages/shops/wares/wares",
+    "pages/shops/ware-detail/ware-detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "商城示例",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/tab/index.png",
+        "selectedIconPath": "/images/tab/index_open.png",
+        "color": "#f2ff2f2",
+        "selectedColor": "#ff3030"
+      },
+      {
+        "pagePath": "pages/shops/shops",
+        "text": "商城",
+        "iconPath": "/images/tab/shops.png",
+        "selectedIconPath": "/images/tab/shops_open.png",
+        "color": "#f2ff2f2",
+        "selectedColor": "#ff3030"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "/images/tab/me.png",
+        "selectedIconPath": "/images/tab/me_open.png",
+        "color": "#f2ff2f2",
+        "selectedColor": "#ff3030"
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+@import "../template/sousuo/sousuo-template.wxss";
+@import "../template/icon-list/icon-list-template.wxss";
+@import "../template/ware-list/ware-list-template.wxss";
+.huise {
+  background-color: #f2f2f2;
+}
+
+.white {
+  background-color: #fff;
+}
+
+swiper {
+  width: 100%;
+  height: 550rpx;
+  margin-bottom: 10rpx;
+}
+
+swiper image {
+  width: 100%;
+  height: 550rpx;
+}
+
+.shops-icons {
+  margin-bottom: 10px;
+}
+
+.shops-icons-template {
+  width: 100%;
+  padding-bottom: 40rpx;
+}
+
+.logos {
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.logos-more {
+  padding-top: 20rpx;
+  height: 40rpx;
+  text-align: center;
+}
+
+.logos-more-title {
+  margin-right: -30rpx;
+  height: 40rpx;
+  font-weight: 900;
+  font-size: 30rpx;
+}
+
+.logos-more-img {
+  padding-top: 10rpx;
+  padding-right: 20rpx;
+  float: right;
+  height: 25rpx;
+  width: 10rpx;
+}
+
+.logos-scroll-container {
+  display: flex;
+  white-space: nowrap;
+}
+
+.logos-container {
+  width: 150rpx;
+  height: 80rpx;
+  padding: 40rpx;
+  display: inline-block;
+}
+
+.logos-img {
+  width: 150rpx;
+  height: 100rpx;
+}
+
+.wares-container{
+    background-color: #fff;
+}
+
+.wares-template{
+    margin-bottom: 30rpx;
+}

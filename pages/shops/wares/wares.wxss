@@ -1,0 +1,9 @@
+@import "../../template/ware-list/ware-list-template.wxss";
+
+.wares-container {
+  background-color: #fff;
+}
+
+.wares-template {
+  margin-bottom: 30rpx;
+}

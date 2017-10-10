@@ -1,0 +1,79 @@
+.huise {
+  background-color: #f2f2f2;
+}
+
+swiper {
+  width: 100%;
+  height: 800rpx;
+  margin-bottom: 10rpx;
+}
+
+swiper image {
+  width: 100%;
+  height: 800rpx;
+}
+
+.introduce-base {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20rpx;
+  margin-bottom: 1px;
+}
+
+.introduce-base-title {
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 10rpx;
+}
+
+.introduce-base-content {
+  font-size: 12px;
+  padding-bottom: 10rpx;
+  margin-bottom: 1rpx
+}
+
+.introduce-base-tabs {
+  display: flex;
+  flex-direction: row;
+  padding: 20rpx 0;
+}
+
+.introduce-base-money {
+  font-size: 15px;
+  color: red;
+  padding-right: 20rpx;
+}
+
+.introduce-base-expressage-tab {
+  border-radius:5px;
+  font-size: 10px;
+  color: #fff;
+  padding: 2px 5px 0;
+  background: #FF8C00;
+}
+
+.introduce-tabs {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  padding: 10rpx 0;
+  margin-bottom: 18rpx;
+}
+
+.introduce-tab {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+.introduce-tab-img {
+  width: 5px;
+  height: 5px;
+  padding: 6px;
+
+}
+
+.introduce-tab-name {
+  font-size: 12px;
+}

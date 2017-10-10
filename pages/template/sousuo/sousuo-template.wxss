@@ -1,0 +1,19 @@
+.sousuo-container {
+  display: flex;
+  padding: 0 22rpx;
+  margin-bottom: 30rpx;
+}
+
+.sousuo-btn {
+  flex: 1;
+  height: 60rpx;
+  font-size: 24rpx;
+}
+
+.sousuo-input {
+  flex: 6;
+  margin-left: 10rpx;
+  height: 56rpx;
+  font-size: 24rpx;
+  border: 2px solid #fff8dc;
+}

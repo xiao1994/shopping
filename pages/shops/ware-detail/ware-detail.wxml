@@ -1,0 +1,47 @@
+<scroll-view class="huise">
+
+  <swiper autoplay="true" interval="5000" duration="1000" indicator-dots="true" circular="true">
+    <block wx:for="{{swiper_img_key}}">
+      <swiper-item>
+        <image src="{{item}}" mode="scaleToFill" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class="introduce-base">
+    <text class="introduce-base-title">挑逗|你的下午茶</text>
+    <text class="introduce-base-content">欢乐的时光总是容易溜走，不如握在手里。与朋友分享，细品每种口味，享受休闲时光。一次性可品尝到本店三种爆款。</text>
+    <view class="introduce-base-tabs">
+      <view class="introduce-base-money">
+        <text>￥</text>
+        <text>399</text>
+      </view>
+      <text class=""></text>
+      <text class="introduce-base-expressage-tab">专人配送</text>
+    </view>
+  </view>
+
+  <view class="introduce-tabs">
+    <view class="introduce-tab">
+      <image class="introduce-tab-img" src="../../../images/icon/dot.png"></image>
+      <text class="introduce-tab-name">积分抵现</text>
+    </view>
+    <view class="introduce-tab">
+      <image class="introduce-tab-img" src="../../../images/icon/dot.png"></image>
+      <text class="introduce-tab-name">品质保障</text>
+    </view>
+    <view class="introduce-tab">
+      <image class="introduce-tab-img" src="../../../images/icon/dot.png"></image>
+      <text class="introduce-tab-name">正品保证</text>
+    </view>
+    <view class="introduce-tab">
+      <image class="introduce-tab-img" src="../../../images/icon/dot.png"></image>
+      <text class="introduce-tab-name">不支持七天无理由退货</text>
+    </view>
+  </view>
+
+  <view class="choose-tab">
+    <text>已选默认规格</text>
+    <image src="../../../images/icon/arrow-right.png"></image>
+  </view>
+</scroll-view>

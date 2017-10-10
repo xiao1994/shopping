@@ -1,0 +1,21 @@
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-img {
+  width: 60rpx;
+  height: 70rpx;
+  padding-bottom: 3rpx;
+  margin:0 auto;
+}
+
+.icon-title {
+  font-size: 20rpx;
+  margin:0 auto;
+}

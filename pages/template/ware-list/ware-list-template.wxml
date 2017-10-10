@@ -1,0 +1,9 @@
+<import src="../ware/ware-template.wxml" />
+<template name="wareListTemplate">
+  <view class="ware-list-container">
+    <view class="wares-container">
+      <template is="wareTemplate" />
+      <template is="wareTemplate" />
+    </view>
+  </view>
+</template>

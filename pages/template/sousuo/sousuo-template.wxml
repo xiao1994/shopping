@@ -1,0 +1,6 @@
+<template name="sousuoTemplate">
+    <view class="sousuo-container">
+      <button class="sousuo-btn">郴州</button>
+      <input class="sousuo-input" auto-focus/>
+    </view>
+</template>
